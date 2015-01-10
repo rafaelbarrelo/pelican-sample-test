@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'rafaelbarrelo'
 SITENAME = u'Pelican Sample Test'
-SITEURL = 'http://rafael.barrelo.com.br/pelican-sample-test/'
+SITEURL = 'http://rafael.barrelo.com.br/pelican-sample-test'
 
 PATH = 'content'
 
@@ -13,6 +13,7 @@ TIMEZONE = 'America/Sao_Paulo'
 DEFAULT_LANG = u'pt'
 
 # Feed generation is usually not desired when developing
+FEED_DOMAIN = SITEURL
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
